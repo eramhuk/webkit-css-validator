@@ -1,0 +1,22 @@
+{
+  "name": "webkit-css-validator",
+  "version": "0.1.0",
+  "description": "CSS specification validator based on WebKit's CSS parsing model",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": ["webkit", "css", "validator", "linter", "specificity"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
